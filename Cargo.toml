@@ -1,0 +1,12 @@
+[package]
+name = "disfaceco"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serenity = "0.12.5"
+rusqlite = "0.40.2"
+tokio = { version = "1.53.2", features = ["full"] }
+poise = "0.7.0"
+
+[features]
